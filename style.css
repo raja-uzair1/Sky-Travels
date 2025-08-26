@@ -158,16 +158,15 @@
          letter-spacing: .3px
      }
 
-     .logo {
-         width: 36px;
-         /* height: 36px; */
-         display: grid;
-         place-items: center;
-         border-radius: 10px;
+.logo img {
+    height: 120px; /* Logo ki height ko 120px tak increase kar diya */
+    width: auto;   /* Aspect ratio maintain hoga */
+    object-fit: contain; /* Image ko distort nahi karega */
+    display: block;
+    margin: 0 auto; /* Horizontally center image */
+    padding: 10px 0; /* Thoda vertical spacing badhaya */
+}
 
-         color: white;
-         font-weight: 900
-     }
 
      .brand span {
          font-size: 1.05rem
